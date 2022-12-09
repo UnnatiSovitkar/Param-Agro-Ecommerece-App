@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#B10435"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/paramlogo"
+        android:gravity="center"
+        android:background="#FAF9F9"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/farmerimage"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+            <TextView
+                android:id="@+id/profile_regno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Reg no"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="नाव"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/profile_mobn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="फोन नंबर"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/profile_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="User type"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:background="#B10435"/>
+    <Button
+        android:id="@+id/profile_logout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="logout"
+        android:backgroundTint="@color/Green"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/paramlogo"
+            android:gravity="center"
+            android:background="#FAF9F9"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#B10435"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="लॉग-इन करा"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/Brown"
+            android:textStyle="bold"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/farmerimage"/>
+        <Button
+            android:id="@+id/farmerlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:backgroundTint="@color/Green"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:text="शेतकरी येथे नोंदणी करा."/>
+
+
+        <Button
+            android:id="@+id/parammitralogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/Green"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:text="लॉग-इन करा"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="20dp"
+            android:background="#B10435"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

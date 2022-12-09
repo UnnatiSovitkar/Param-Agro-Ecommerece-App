@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:id="@+id/gp1">
+                <item
+                    android:id="@+id/sidepikmahiti"
+                    android:icon="@drawable/shovels"
+                    android:title="पीक माहिती"
+                    />
+                <item
+                    android:id="@+id/sidevyavastapan"
+                    android:icon="@drawable/sapling"
+                    android:title="पीक व्यवस्थापन"
+                    />
+                <item
+                    android:id="@+id/sideagrodukan"
+                    android:icon="@drawable/shop"
+                    android:title="अॅग्री दुकान"
+                    />
+        </group >
+
+        <group android:id="@+id/gp3">
+                <item
+                    android:id="@+id/sideref"
+                    android:icon="@drawable/getmoney"
+                    android:title="Refer And Earn"/>
+                <item
+                    android:id="@+id/sideagrohelp"
+                    android:icon="@drawable/helppp"
+                    android:title="Help"
+                    />
+                <item
+                    android:id="@+id/sideppolicy"
+                    android:icon="@drawable/privacypolicy"
+                    android:title="Privacy Policy" />
+                <item
+                    android:id="@+id/siderpolicy"
+                    android:icon="@drawable/repoci"
+                    android:title="Refund Policy" />
+
+<!--        <item-->
+<!--            android:id="@+id/sideprofile"-->
+<!--            android:icon="@drawable/ic_baseline_person_outline_24"-->
+<!--            android:title="प्रोफाइल" />-->
+
+        </group>
+</menu>

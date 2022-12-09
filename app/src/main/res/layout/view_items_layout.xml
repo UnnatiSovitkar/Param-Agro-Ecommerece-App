@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/shopbtn"
+        android:elevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgitem"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bhumika"/>
+        <TextView
+            android:id="@+id/titleitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ellipsize="end"
+            android:textSize="15dp"
+            android:justificationMode="inter_word"
+            android:maxLines="2"
+            android:text="पावर ग्रो भूमिका (३० किलो) "
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/kgunitmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="Kg युनिट"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/pdisc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="\u20B92100"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ptotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="#989797"
+                android:textSize="16dp"
+                android:text="3000"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/poff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="#DD2323"
+                android:textSize="16dp"
+                android:text="\u20B930% off"
+                 />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnclk"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="खरेदी करा"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#01786D"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

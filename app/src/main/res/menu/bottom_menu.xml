@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="पीक माहिती "
+        android:icon="@drawable/ic_baseline_local_florist_24"
+        android:id="@+id/bottompik"/>
+
+    <item android:icon="@drawable/ic_baseline_message_24"
+        android:id="@+id/bottomvyavastapan"
+        android:title="पीक व्यवस्थापन" />
+
+    <item android:title="अॅग्री दुकान"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"
+        android:id="@+id/bottomdukan"/>
+
+    <item android:title="Login"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:id="@+id/bottomlogin"/>
+</menu>

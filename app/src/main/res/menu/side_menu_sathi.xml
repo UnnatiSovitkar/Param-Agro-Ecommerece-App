@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:id="@+id/gp1">
+                <item
+                    android:id="@+id/sidepikmahitisathi"
+                    android:icon="@drawable/shovels"
+
+                    android:title="पीक माहिती"
+                    />
+                <item
+                    android:id="@+id/sidevyavastapan"
+                    android:icon="@drawable/sapling"
+
+                    android:title="पीक व्यवस्थापन"
+                    />
+                <item
+                    android:id="@+id/sideagrodukansathi"
+                    android:icon="@drawable/shop"
+                    android:title="अॅग्री दुकान"
+                    />
+
+<!--                <item-->
+<!--            android:id="@+id/sideprofilesathi"-->
+<!--            android:icon="@drawable/ic_baseline_person_outline_24"-->
+<!--            android:title="प्रोफाइल" />-->
+        </group>
+        <group android:id="@+id/gp2">
+                <item
+                    android:id="@+id/sideordersathi"
+                    android:icon="@drawable/shoppingbag"
+                    android:title="All Orders"
+                    >
+                </item>
+        </group>
+
+        <group android:id="@+id/gp3">
+                <item
+                    android:id="@+id/siderefsathi"
+                    android:icon="@drawable/getmoney"
+                    android:title="Refer And Earn"
+                    />
+                <item
+                    android:id="@+id/sideregsathi"
+                    android:icon="@drawable/ic_baseline_app_registration_24"
+                    android:title="Register Param Mitra/ Farmer" />
+                <item
+                    android:id="@+id/sidechecksathi"
+                    android:icon="@drawable/ic_baseline_checklist_24"
+                    android:title="CheckList" />
+
+                <item
+                    android:id="@+id/sideagrohelpsathi"
+                    android:icon="@drawable/helppp"
+                    android:title="Help"
+                    />
+                <item
+                    android:id="@+id/sideppolicysathi"
+                    android:icon="@drawable/privacypolicy"
+                    android:title="Privacy Policy" />
+                <item
+                    android:id="@+id/siderpolicysathi"
+                    android:icon="@drawable/repoci"
+                    android:title="Refund Policy" />
+                <item
+                    android:id="@+id/sidelogoutsathi"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+        </group>
+</menu>

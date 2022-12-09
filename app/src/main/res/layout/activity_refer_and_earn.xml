@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.paramagro.param.ReferAndEarn"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B10435"
+        android:id="@+id/toolbarfeedback"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="रेफर करा आणि कमवा"
+        app:titleTextColor="@color/white"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/reffer"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/Gray"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerinvite"/>
+        <!--ListView to show all saved contacts-->
+
+</LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

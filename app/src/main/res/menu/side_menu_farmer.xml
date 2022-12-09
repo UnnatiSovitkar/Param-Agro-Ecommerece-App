@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:id="@+id/gp1">
+                <item
+                    android:id="@+id/sidepikmahitifarmer"
+                    android:icon="@drawable/shovels"
+                    android:title="पीक माहिती"
+                    />
+                <item
+                    android:id="@+id/sidevyavastapanfarmer"
+                    android:icon="@drawable/sapling"
+                    android:title="पीक व्यवस्थापन"
+                    />
+                <item
+                    android:id="@+id/sideagrodukanfarmer"
+                    android:icon="@drawable/shop"
+                    android:title="अॅग्री दुकान"
+                    />
+        </group >
+        <group android:id="@+id/gp2">
+                <item
+                    android:id="@+id/sideorderfarmer"
+                    android:icon="@drawable/shoppingbag"
+                    android:title="All Orders"
+                    >
+                </item>
+        </group>
+        <group android:id="@+id/gp3">
+                <item
+                    android:id="@+id/sidereffarmer"
+                    android:icon="@drawable/getmoney"
+                    android:title="Refer And Earn"/>
+                <item
+                    android:id="@+id/sideagrohelpfarmer"
+                    android:icon="@drawable/helppp"
+                    android:title="Help"
+                    />
+                <item
+                    android:id="@+id/sideppolicyfarmer"
+                    android:icon="@drawable/privacypolicy"
+                    android:title="Privacy Policy" />
+                <item
+                    android:id="@+id/siderpolicyfarmer"
+                    android:icon="@drawable/repoci"
+                    android:title="Refund Policy" />
+                <item
+                    android:id="@+id/sidelogoutfarmer"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+<!--        <item-->
+<!--            android:id="@+id/sideprofile"-->
+<!--            android:icon="@drawable/ic_baseline_person_outline_24"-->
+<!--            android:title="प्रोफाइल" />-->
+
+        </group>
+</menu>
